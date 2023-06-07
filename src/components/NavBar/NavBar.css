@@ -8,3 +8,18 @@
 .navBar{
 background-color: var(--color-b3);
 }
+.me-auto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    margin-left: 2em;
+}
+.link-drop{
+    margin-left: 1em;
+}
+.dropDown{
+   margin-left: 1em;
+}
