@@ -1,8 +1,9 @@
 .testimonios-container{
     width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: var(--color-b3);
 }
