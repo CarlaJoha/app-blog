@@ -1,8 +1,9 @@
+import "./Contact.css"
 const Contact = () => {
     return ( 
         <>
-        <section id="contact">
-        <h1>Contact</h1>
+        <section className="contact-container" >
+        <h1>Contacto</h1>
         </section>
         </>
      );

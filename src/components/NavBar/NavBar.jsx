@@ -19,7 +19,7 @@ const NavBar = () => {
                 <NavDropdown className="dropDown" title="Información" id="basic-nav-dropdown">
                   <Link className="link-drop" to='/about' >Acerca de...</Link>
                   <Link className="link-drop" to='/testimonios' >Testimonios</Link>
-                  <Link className="link-drop" to='/contacto' >Contacto</Link>
+                  <Link className="link-drop" to='/contact' >Contacto</Link>
                   <NavDropdown.Divider />
                   <Link className="link-drop" to='/dashboard' >Acceder</Link>
                 </NavDropdown>
