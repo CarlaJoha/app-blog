@@ -21,7 +21,7 @@ const NavBar = () => {
                   <Link className="link-drop" to='/testimonios' >Testimonios</Link>
                   <Link className="link-drop" to='/contact' >Contacto</Link>
                   <NavDropdown.Divider />
-                  <Link className="link-drop" to='/dashboard' >Acceder</Link>
+                  <Link className="link-drop" to='/login' >Acceder</Link>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>

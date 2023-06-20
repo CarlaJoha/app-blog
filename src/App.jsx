@@ -9,6 +9,7 @@ import NavBar from './components/NavBar/NavBar';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import Testimonios from './components/Testimonios/Testimonios';
+import Login from './views/Login/Login';
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
       <Route path='/dashboard' element={<Dashboard />}/>
       <Route path='/contact' element={<Contact />}/>
       <Route path='/about' element={<About />}/>
-      <Route path='/testimonios' element={<Testimonios />}/>
+      <Route path='/testimonios' element={<Testimonios />} />
+      <Route path='/login' element={<Login/>} />
     </Routes>
     <Footer/>
     </>

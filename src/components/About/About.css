@@ -2,8 +2,37 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     color: rgb(255, 255, 255);
-    background-color: var(--color-r3);
+    background-color: var(--color-b3);
+}
+.container-image-about {
+    width: 50em;
+    height: 40em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 2em 3em;
+    /* border: 1px solid red; */
+}
+.image-about{
+    border-radius: 50%;
+}
+.div-text-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-about{
+    width: 80%;
+    font-size: 3.3em;
+    display: flex;
+    margin-bottom: 2em;  
+}
+.text-about{
+    font-size: 1.8em;
+    width: 80%;
 }
